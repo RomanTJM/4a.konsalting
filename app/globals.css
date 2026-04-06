@@ -169,7 +169,7 @@ body {
   align-items: center;
   position: absolute;
   top: 0;
-  left: 50px;
+  left: 24px;
   right: 20px;
   width: auto;
   z-index: 2;
@@ -205,7 +205,7 @@ body {
 /* Forced gap fix for secondary cards */
 .plan-card--secondary .plan-card-content {
   flex-direction: column !important;
-  gap: 40px !important;
+  gap: 12px !important;
 }
 
 .plan-card--featured .plan-card-content {
@@ -229,10 +229,10 @@ body {
 .plan-left-side {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 8px;
   width: 100%;
-  align-items: center;
-  padding-top: 31px;
+  align-items: flex-start;
+  padding-top: 8px;
 }
 
 .plan-right-side {
@@ -529,12 +529,16 @@ body {
     align-items: center !important;
   }
 
+  .plan-card--secondary .plan-card-content {
+    flex-direction: row !important;
+  }
+
   .plan-left-side {
     width: max-content;
     text-align: left !important;
     padding-top: 0;
-    gap: 16px;
-    align-items: start;
+    gap: 8px;
+    align-items: flex-start;
   }
 
   .plan-right-side {
@@ -542,7 +546,7 @@ body {
     margin-top: 0 !important;
     display: flex !important;
     flex-direction: column !important;
-    align-items: flex-end !important;
+    align-items: flex-start !important;
     justify-content: center !important;
     align-self: center !important;
   }
