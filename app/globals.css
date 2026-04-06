@@ -241,10 +241,6 @@ body {
   padding-top: 8px;
 }
 
-.plan-card--secondary .plan-left-side {
-  align-items: flex-start;
-}
-
 .plan-right-side {
   /* display: flex;
   flex-direction: column;
